@@ -1,8 +1,4 @@
-ast
-time
 numpy
 pandas
 matplotlib
-seaborn
-re
-os
+seaborn	
