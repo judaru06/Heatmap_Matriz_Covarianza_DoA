@@ -22,8 +22,8 @@ As can be seen the covariance matrix is a fundamental concept in signal processi
 
 1. **Clone Repository**:
    ````bash
-   git clone <repository URL>.
-   cd <repository name>
+   git clone https://github.com/judaru06/Heatmap_Matriz_Covarianza_DoA.
+   cd Heatmap_Matriz_Covarianza_DoA
 
 2. Install Dependencies:
 Python 3.x is required. To install the dependencies, run:
