@@ -19,6 +19,10 @@ Este proyecto tiene como objetivo analizar matrices complejas extraídas de señ
 Se requiere Python 3.x. Para instalar las dependencias, ejecute:
    ```bash
       pip install -r requirements.txt
+   
+## Ejecución de los Análisis
+   Codigo de ejemplo:
+   test/Test_Heatmap_Matriz_Covarianza_DoA.py
 
 ## La estructura del repositorio es el siguiente:
    ```bash
@@ -45,6 +49,3 @@ Se requiere Python 3.x. Para instalar las dependencias, ejecute:
          |
          ---test
          Test_Heatmap_Matriz_Covarianza_DoA.py
-## Ejecución de los Análisis
-   Codigo de ejemplo:
-   test/Test_Heatmap_Matriz_Covarianza_DoA.py
