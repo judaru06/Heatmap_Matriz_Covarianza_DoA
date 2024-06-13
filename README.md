@@ -61,7 +61,17 @@ Python 3.x is required. To install the dependencies, run:
 * Data Conversion: Complex matrices in text format are converted into numerical matrices.
 * Component Extraction: Real and imaginary parts of complex matrices are extracted.
 * Statistical Analysis: Descriptive statistics such as mean, median, mode, standard deviation, etc. are calculated.
+* Visualization: Heat maps are generated for the real and imaginary parts of the matrices.
   
+## Summary of Results
+Results show significant patterns in the complex matrices at different angles. Descriptive statistics provide a detailed view of the distribution of values in the matrices.
+
+## Discussion
+The results obtained allow the identification of patterns in RF signals that can be used to improve signal transmission and reception techniques. The visualizations help to better understand the data and to detect possible anomalies.
+
+## Conclusions
+This project demonstrates an effective methodology for the analysis of complex matrices in RF signals. The statistical analyses and visualizations provide valuable information that can be used in practical applications in the field of telecommunications.
+
 ## References:
 
 * Brilhante, D. D. S., Manjarres, J. C., Moreira, R., De Oliveira Veiga, L., De Rezende, J. F., Müller, F., Klautau, A., Leonel Mendes, L., & P. De Figueiredo, F. A. (2023). A Literature Survey on AI-Aided Beamforming and Beam Management for 5G and 6G Systems. Sensors, 23(9), 4359. https://doi.org/10.3390/s23094359
