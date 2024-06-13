@@ -1,31 +1,31 @@
-# Heatmap_Matriz_Covarianza_DoA
-Creación de mapas de calor en escala de grises para la estimación del DoA
+# Heatmap_Covariance_Matrix_DoA
+Creating grayscale heatmaps for DoA estimation
 # SCIENTIFIC COMPUTING
 
 Std. Juan David Rojas Usuga
 
-## Descripción General del Proyecto
+## Project Overview
 
-Este proyecto tiene como objetivo analizar matrices complejas extraídas de señales RF utilizando diferentes ángulos. Se realizan varios análisis estadísticos y visualizaciones para comprender mejor los datos. El proyecto está organizado en varias carpetas que contienen scripts y datos necesarios para ejecutar los análisis.
+This project aims to analyze complex matrices extracted from RF signals using different angles. Several statistical analyses and visualizations are performed to better understand the data. The project is organized in several folders containing scripts and data needed to run the analyses.
 
-## Configuración del Proyecto
+## Project Setup
 
-1. **Clonar el Repositorio**:
-   ```bash
-   git clone <URL del repositorio>
-   cd <nombre del repositorio>
+1. **Clone Repository**:
+   ````bash
+   git clone <repository URL>.
+   cd <repository name>
 
-2. Instalar Dependencias:
-Se requiere Python 3.x. Para instalar las dependencias, ejecute:
-   ```bash
+2. Install Dependencies:
+Python 3.x is required. To install the dependencies, run:
+   ````bash
       pip install -r requirements.txt
    
-## Ejecución de los Análisis
-   Codigo de ejemplo:
-   test/Test_Heatmap_Matriz_Covarianza_DoA.py
+## Running the Analysis
+   Example code:
+   test/Test_Heatmap_Matrix_Covariance_DoA.py.
 
-## La estructura del repositorio es el siguiente:
-   ```bash
+## The repository structure is as follows:
+   ````bash
          C:.
          | .gitignore
          | output.txt
