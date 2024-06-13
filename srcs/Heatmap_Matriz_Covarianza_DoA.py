@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import re
 from ast import literal_eval
+from Data_Organization_Conversion import prepare_and_save  # Asegúrate de que el nombre de archivo e importación sean correctos
 
 class ComplexMatrixParser:
     def __init__(self, expected_size=144):
@@ -55,6 +56,8 @@ class MatrixVisualizer:
             plt.close()
 
 def main():
+    prepare_and_save()  # Esto preparará y guardará los archivos CSV necesarios
+
     base_dir = os.path.dirname(os.path.abspath(__file__))
     data_dir = os.path.join(base_dir, "..", "data")
     results_dir = os.path.join(base_dir, "..", "results")
