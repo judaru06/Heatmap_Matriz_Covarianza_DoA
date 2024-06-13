@@ -34,11 +34,6 @@ Se requiere Python 3.x. Para instalar las dependencias, ejecute:
          |
          +---data
          | datos_MUSIC_3.csv
-         | music_data_1_angles.csv
-         | music_data_2_angles.csv
-         | music_data_3_angles.csv
-         | music_data_4_angles.csv
-         | music_data_5_angles.csv
          |
          +---results
          |
