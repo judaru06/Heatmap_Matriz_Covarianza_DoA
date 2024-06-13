@@ -21,24 +21,30 @@ Se requiere Python 3.x. Para instalar las dependencias, ejecute:
       pip install -r requirements.txt
 
 ## La estructura del repositorio es el siguiente:
-C:.
-| .gitignore
-| output.txt
-| README.md
-| requirements.txt
-|
-+---data
-| datos_MUSIC_3.csv
-|
-+---results
-|
-+---srcs
-| Calculating_descriptive_statistics.py
-| Data_Organization_Conversion.py
-| Heatmap_Matriz_Covarianza_DoA.py
-|
----test
-Test_Heatmap_Matriz_Covarianza_DoA.py
+   ```bash
+         C:.
+         | .gitignore
+         | output.txt
+         | README.md
+         | requirements.txt
+         |
+         +---data
+         | datos_MUSIC_3.csv
+         | music_data_1_angles.csv
+         | music_data_2_angles.csv
+         | music_data_3_angles.csv
+         | music_data_4_angles.csv
+         | music_data_5_angles.csv
+         |
+         +---results
+         |
+         +---srcs
+         | Calculating_descriptive_statistics.py
+         | Data_Organization_Conversion.py
+         | Heatmap_Matriz_Covarianza_DoA.py
+         |
+         ---test
+         Test_Heatmap_Matriz_Covarianza_DoA.py
 ## Ejecución de los Análisis
    Codigo de ejemplo:
    test/Test_Heatmap_Matriz_Covarianza_DoA.py
